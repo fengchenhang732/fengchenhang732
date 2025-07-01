@@ -8,7 +8,6 @@ function distance = gf_hamming_distance(A, B, m, prim_poly)
     %
     % 输出:
     %   distance: A 和 B 不同的符号数
-
     % 参数检查
     if nargin < 3
         m = 8;                  % 默认 GF(2^8)
