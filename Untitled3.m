@@ -7,7 +7,7 @@ function distance = gf_hamming_distance(A, B, m, prim_poly)
     %   prim_poly: 本原多项式（默认 391, 即 x^8 + x^7 + x^2 + x + 1）
     %
     % 输出:
-    %   distance: A 和 B 不同的符号数
+    % distance: A 和 B 不同的符号数
     % 参数检查
     if nargin < 3
         m = 8;                  % 默认 GF(2^8)
